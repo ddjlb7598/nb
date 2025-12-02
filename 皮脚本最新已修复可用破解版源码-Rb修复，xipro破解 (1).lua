@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
-  Title = "皮脚本",
-  Text = "欢迎使用皮脚本",
+  Title = "迪脚本",
+  Text = "欢迎使用迪脚本",
   Icon = "rbxassetid://18941716391",
   Duration = 1,
   Callback = bindable,
@@ -9,7 +9,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 wait(1.5)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-  Title = "皮脚本",
+  Title = "迪脚本",
   Text = "皮脚本已重做 本来想搞成检测服务器ID的 后面还是因为麻烦 就不搞了",
   Icon = "rbxassetid://18941716391",
   Duration = 1,
@@ -19,7 +19,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 wait(1.5)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-  Title = "皮脚本",
+  Title = "迪脚本",
   Text = "每周都会更新几个服务器 更新有点慢 请见谅",
   Icon = "rbxassetid://18941716391",
   Duration = 2,
@@ -36,7 +36,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
   VirtualUserService:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 end)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-  Title = "皮脚本",
+  Title = "迪脚本",
   Text = "已自动开启反挂机",
   Icon = "rbxassetid://18941716391",
   Duration = 2,
@@ -47,12 +47,12 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 local RevenantLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Revenant", true))()
 RevenantLib.DefaultColor = Color3.fromRGB(255, 0, 0)
 RevenantLib:Notification({
-  Text = "皮脚本作者: 小皮\u{e000}",
+  Text = "迪脚本作者: 刘佳旭\u{e000}",
   Duration = 6,
 })
 wait(1)
 RevenantLib:Notification({
-  Text = "皮脚本帮助者: 紅鲨\u{e000}",
+  Text = "迪脚本帮助者:😂 张军辉聂志超聂晨博\u{e000}",
   Duration = 6,
 })
 wait(1)
@@ -6876,3 +6876,4 @@ r50_0:Tab("『汽车经销大亨』", "18930406865"):section("整合脚本", tru
   loadstring(game:HttpGet([[https://raw.githubusercontent.com/xiaopi77/Integration-script/refs/heads/main/Roblox-Pi-Script-Automobiledealertycoon.lua]]))()
 
 end)    
+
