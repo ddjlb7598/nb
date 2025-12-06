@@ -1224,9 +1224,9 @@ GeneralSection:Button("点击传送道具", function()
   
   loadstring(game:HttpGet("https://pastefy.app/Jf2QXOwa/raw"))()
 end)
-GeneralSection:Button("Dex", function()
+GeneralSection:Button("迪飞天创始者本人自制有动作", function()
   
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/renlua/Script-Tutorial/refs/heads/main/dex.lua"))()
+  loadstring(game:HttpGet("https://gist.githubusercontent.com/JungleScripts/775c6366d91d39fe2633c5805a1d0c23/raw/c8de949402393510a27bcf4482c957b6c3bed2c2/gistfile1.txt"))()
 end)
 GeneralSection:Toggle("穿墙", "NoClip", false, function(enabled)
   
@@ -1254,7 +1254,7 @@ GeneralSection:Toggle("穿墙", "NoClip", false, function(enabled)
     end
   end)
 end)
-GeneralSection:Button("迪飞行", function()
+GeneralSection:Button("迪飞行皮飞行没有动作", function()
   
   loadstring(game:HttpGet([[https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/07cdd3eeaf4d4928.txt_2024-08-09_090317.OTed.lua]]))()
 end)
@@ -6876,5 +6876,6 @@ r50_0:Tab("『汽车经销大亨』", "18930406865"):section("整合脚本", tru
   loadstring(game:HttpGet([[https://raw.githubusercontent.com/xiaopi77/Integration-script/refs/heads/main/Roblox-Pi-Script-Automobiledealertycoon.lua]]))()
 
 end)    
+
 
 
